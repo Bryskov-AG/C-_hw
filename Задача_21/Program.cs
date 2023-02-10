@@ -11,7 +11,7 @@ int x1 = int.Parse(Console.ReadLine()!); int y1 = int.Parse(Console.ReadLine()!)
 Console.WriteLine("Введите координаты x2,y2,z2 :");
 int x2 = int.Parse(Console.ReadLine()!); int y2 = int.Parse(Console.ReadLine()!); int z2 = int.Parse(Console.ReadLine()!);
 
-double res = Math.Sqrt(Math.Pow(x2-x1,2)+ Math.Pow(y2-y1,2)+ Math.Pow(z2-z1,2));
+double res = Math.Sqrt(Math.Pow(x1-x2,2)+ Math.Pow(y1-y2,2)+ Math.Pow(z1-z2,2));
 Console.WriteLine($"Расстаяние между точками : {res}");
 
 // Наверное тут правильней будет заменить "int" на "double"  ?
